@@ -32,7 +32,7 @@ app.use(expressLocale({
 	map: {
 		/* TODO: map more regions to the available locales */
 		en: 'en-US', 'en-AU': 'en-US', 'en-CA': 'en-US',
-		ar: 'ar-AR',
+		ar: 'ar-EG',
 		ca: 'ca-ES',
 		cs: 'cs-CZ',
 		cn: 'zh-CN',
@@ -57,7 +57,7 @@ app.use(expressLocale({
 	},
 	allowed: [
 		'en', 'en-US', 'en-GB', 'en-AU', 'en-CA',
-		'ar', 'ar-AR',
+		'ar', 'ar-EG',
 		'ast',
 		'ca-ES',
 		'cs-CZ',
